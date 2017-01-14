@@ -1,6 +1,7 @@
 {
     "version": "1.0.0",
     "summary": "Elm language basics",
+    "repository": "https://github.com/haakenlid/elm-basics.git",
     "license": "BSD3",
     "source-directories": [
         ".",

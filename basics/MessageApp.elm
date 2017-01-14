@@ -1,4 +1,4 @@
-module Messages exposing (..)
+module MessageApp exposing (..)
 
 import Html exposing (Html, button, div, text, program)
 import Html.Events exposing (onClick)

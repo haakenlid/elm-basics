@@ -1,4 +1,4 @@
-module Main exposing (..)
+module AppWithWidget exposing (..)
 
 import Html exposing (Html, program)
 import Widget
