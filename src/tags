@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Model	Models.elm	/^type alias Model =$/;"	a
+Msg	Messages.elm	/^type Msg$/;"	t
+Msg	Players/Messages.elm	/^type Msg$/;"	t
+Player	Players/Models.elm	/^type alias Player =$/;"	a
+PlayerId	Players/Models.elm	/^type alias PlayerId =$/;"	a
+Route	Routing.elm	/^type Route$/;"	t
+btnLevelDecrease	Players/Edit.elm	/^btnLevelDecrease : Player -> Html Msg$/;"	f
+btnLevelIncrease	Players/Edit.elm	/^btnLevelIncrease : Player -> Html Msg$/;"	f
+changeLevelCommands	Players/Update.elm	/^changeLevelCommands : PlayerId -> Int -> List Player -> List (Cmd Msg)$/;"	f
+collectionDecoder	Players/Commands.elm	/^collectionDecoder : Decode.Decoder (List Player)$/;"	c
+editBtn	Players/List.elm	/^editBtn : Player -> Html Msg$/;"	f
+fetchAll	Players/Commands.elm	/^fetchAll : Cmd Msg$/;"	c
+fetchAllUrl	Players/Commands.elm	/^fetchAllUrl : String$/;"	c
+form	Players/Edit.elm	/^form : Player -> Html Msg$/;"	f
+formLevel	Players/Edit.elm	/^formLevel : Player -> Html Msg$/;"	f
+init	Main.elm	/^init : Navigation.Location -> ( Model, Cmd Msg )$/;"	f
+initialModel	Models.elm	/^initialModel : Routing.Route -> Model$/;"	f
+list	Players/List.elm	/^list : List Player -> Html Msg$/;"	f
+listBtn	Players/Edit.elm	/^listBtn : Html Msg$/;"	c
+main	Main.elm	/^main : Program Never Model Msg$/;"	c
+matchers	Routing.elm	/^matchers : Parser (Route -> a) a$/;"	f
+memberDecoder	Players/Commands.elm	/^memberDecoder : Decode.Decoder Player$/;"	c
+memberEncoded	Players/Commands.elm	/^memberEncoded : Player -> Encode.Value$/;"	f
+nav	Players/Edit.elm	/^nav : Player -> Html Msg$/;"	f
+nav	Players/List.elm	/^nav : List Player -> Html Msg$/;"	f
+new	Players/Models.elm	/^new : Player$/;"	c
+notFoundView	View.elm	/^notFoundView : Html msg$/;"	c
+page	View.elm	/^page : Model -> Html Msg$/;"	f
+parseLocation	Routing.elm	/^parseLocation : Location -> Route$/;"	f
+playerEditPage	View.elm	/^playerEditPage : Model -> PlayerId -> Html Msg$/;"	f
+playerRow	Players/List.elm	/^playerRow : Player -> Html Msg$/;"	f
+save	Players/Commands.elm	/^save : Player -> Cmd Msg$/;"	f
+saveRequest	Players/Commands.elm	/^saveRequest : Player -> Http.Request Player$/;"	f
+saveUrl	Players/Commands.elm	/^saveUrl : PlayerId -> String$/;"	f
+subscriptions	Main.elm	/^subscriptions : Model -> Sub Msg$/;"	f
+update	Players/Update.elm	/^update : Msg -> List Player -> ( List Player, Cmd Msg )$/;"	f
+update	Update.elm	/^update : Msg -> Model -> ( Model, Cmd Msg )$/;"	f
+updatePlayer	Players/Update.elm	/^updatePlayer : Player -> List Player -> List Player$/;"	f
+view	Players/Edit.elm	/^view : Player -> Html Msg$/;"	f
+view	Players/List.elm	/^view : List Player -> Html Msg$/;"	f
+view	View.elm	/^view : Model -> Html Msg$/;"	f
